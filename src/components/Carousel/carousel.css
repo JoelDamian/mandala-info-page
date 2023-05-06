@@ -1,0 +1,10 @@
+.responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-height {
+  width: 100%;
+  height: 300px !important;
+}

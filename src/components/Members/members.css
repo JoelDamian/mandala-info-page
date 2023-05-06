@@ -1,0 +1,37 @@
+section {
+    display: flex;
+    width: 100%;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.section-line{
+    height: 2px;
+    border: 2px;
+    background-color: gray;
+    width: 35%;
+    margin: 20px;
+}
+
+.container-title{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}

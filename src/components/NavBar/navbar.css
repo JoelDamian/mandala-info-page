@@ -1,0 +1,37 @@
+.font-link {
+    font-size: 20px;
+    color: black;
+}
+
+.triangle-container {
+  position: relative;
+  width: 100%;
+}
+
+.triangle{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 0%;
+  height: 80px;
+  border-right: 500px solid rgba(221,77,18,0.7)  ;
+  border-top: 55px solid transparent;
+  border-left: 500px solid transparent;
+  border-bottom: 50px solid rgba(221,77,18,0.7)  ;
+  z-index: 3;
+}
+
+.nav-bar-custom {
+  z-index: 4;
+  background: transparent;
+  width: 100%;
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+}
+
+.cover-image{
+  width: 100%;
+  height:  auto;
+  z-index: 1;
+}

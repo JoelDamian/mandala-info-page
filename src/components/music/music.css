@@ -1,0 +1,39 @@
+.container-music {
+  width: 100%;
+  background-color: #140604;
+}
+
+.container-playlist {
+  width: 100%;
+  height: 100%;
+  background-color: #140604;
+  height: 500px;
+}
+
+.container-image-album {
+  width: 50%;
+  background-color: #451505;
+}
+
+.album-image {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text {
+  width: 50% !important;
+}
+
+.paragraph{
+    font-size: 20px;
+    margin-top: 10px;
+}

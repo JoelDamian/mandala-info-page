@@ -1,0 +1,35 @@
+.section-line{
+    height: 2px;
+    border: 2px;
+    background-color: gray;
+    width: 35%;
+    margin: 20px;
+}
+
+.container-title{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.manager{
+    width: 600px;
+    height: 124px;
+    background-color: #fb6c14;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+.manager-name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.manager-rol{
+    font-size: 25px;
+}
